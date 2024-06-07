@@ -14,7 +14,7 @@ import {Link} from 'react-router-dom'
 const Home = () => {
   return (
     <div className='bg-slate-800 text-white overflow-hidden container-fluid'>
-        <div id='home' className='grid  sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 p-4 gap-4 '>
+        <div id='home' className='grid  sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2  gap-4 '>
             <div className='mt-15 p-20'>
                 <h1 className='text-lg font-bold'>Hello It's Me  </h1>
                 <h1 className='text-5xl font-bold tracking-in-contract'>Ajay Kumar Tyagi</h1>
@@ -30,13 +30,13 @@ const Home = () => {
                
 
             </div>
-            <div className='p-5 '>
-                <img className='object-cover  mt-15 myimg' src={image} alt="" />
+            <div className='p-5 mx-auto'>
+                <img className='object-cover img-fluid  mt-15 myimg' src={image} alt="" />
             </div>
         </div>
         <div id='about' className='grid  sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-4'>
-          <div className='p-5 mx-auto'>
-              <img className='object-cover myimg mt-15 ' src={image} alt="" />
+          <div className='p-4 mx-auto'>
+              <img className='object-cover img-fluid myimg mt-15 ' src={image} alt="" />
           </div>
           <div className='mt-7 p-4'>
             <h1 id='' className='text-5xl font-bold'>About Me</h1>
