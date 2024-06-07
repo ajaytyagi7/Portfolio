@@ -35,9 +35,9 @@ const Home = () => {
 
             </div>
         </div>
-        <div id='about' className='grid  sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-4'>
+        <div id='about' className='grid  sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-4 p-5'>
         <div className='mt-7 p-4'>
-            <h1 id='' className='text-5xl font-bold'>About Me</h1>
+            <h1 id='' className='text-5xl font-bold '>About Me</h1>
             <h1 className='text-xl font-bold'>Full Stack Developer</h1>
             <p className='mt-3'>I Am a skilled web developer with over 1 year. My passion in creating capativating website design and impelementing them through frontend developement
               .I take pride in staying up to date with the latest web technologies and tools. I am a quick learner and a team player who is always ready to take on new challenges.
