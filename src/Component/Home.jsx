@@ -15,6 +15,10 @@ const Home = () => {
   return (
     <div className='bg-slate-800 text-white overflow-hidden container-fluid'>
         <div id='home' className='grid  sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2  gap-4 '>
+            
+            <div className='p-5 mx-auto'>
+                <img className='object-cover img-fluid  mt-15 myimg' src={image} alt="" />
+            </div>
             <div className='mt-15 p-20'>
                 <h1 className='text-lg font-bold'>Hello It's Me  </h1>
                 <h1 className='text-5xl font-bold tracking-in-contract'>Ajay Kumar Tyagi</h1>
@@ -30,15 +34,9 @@ const Home = () => {
                
 
             </div>
-            <div className='p-5 mx-auto'>
-                <img className='object-cover img-fluid  mt-15 myimg' src={image} alt="" />
-            </div>
         </div>
         <div id='about' className='grid  sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-4'>
-          <div className='p-4 mx-auto'>
-              <img className='object-cover img-fluid myimg mt-15 ' src={image} alt="" />
-          </div>
-          <div className='mt-7 p-4'>
+        <div className='mt-7 p-4'>
             <h1 id='' className='text-5xl font-bold'>About Me</h1>
             <h1 className='text-xl font-bold'>Full Stack Developer</h1>
             <p className='mt-3'>I Am a skilled web developer with over 1 year. My passion in creating capativating website design and impelementing them through frontend developement
@@ -50,6 +48,10 @@ const Home = () => {
             </p>
             <button className='btn mt-5  fw-bold'>More About  </button>
           </div>
+          <div className='p-4 mx-auto'>
+              <img className='object-cover img-fluid myimg mt-15 ' src={image} alt="" />
+          </div>
+          
         </div>
         <h1 id='services' className='text-center text-5xl mt-5 font-bold'>My Services</h1>
         <div className='grid  sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-20 p-11'>
